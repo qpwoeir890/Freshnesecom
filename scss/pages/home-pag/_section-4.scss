@@ -1,0 +1,160 @@
+.section-4 {
+  .section-2__info {
+    width: 1170px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+    margin-top: 142px;
+    .section-2__text {
+      color: rgba(21, 21, 21, 1);
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 27px;
+      text-align: left;
+    }
+    .section-2__btn {
+      background-color: rgba(240, 248, 255, 0);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 22.5px;
+      text-align: left;
+      color: #000;
+    }
+  }
+  .section-4__div {
+    display: flex;
+    justify-content: space-between;
+    .section-4__imfo-1 {
+      background-image: url(/img/Image-dark.svg);
+      width: 469px;
+      height: 400px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 12px;
+      padding: 24px 24px;
+      .sectione-btn {
+        width: 82px;
+        height: 18px;
+        border-radius: 12px;
+        background-color: rgba(244, 248, 236, 1);
+        color: rgba(106, 152, 60, 1);
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+      }
+      .sectione-4__text-1 {
+        color: rgba(255, 255, 255, 1);
+        font-family: "Poppins", sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 33px;
+        text-align: left;
+        margin-top: 228px;
+      }
+      .text__div {
+        display: flex;
+        width: 156px;
+        height: 32px;
+        gap: 0px;
+        opacity: 0px;
+        align-items: center;
+        margin-top: 8px;
+        .sectione-4__text-2 {
+          font-family: Open Sans;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16.34px;
+          text-align: left;
+          color: rgba(255, 255, 255, 1);
+          margin-left: 12px;
+        }
+      }
+    }
+    .section-4__io-mf2 {
+      display: grid;
+      width: 269px;
+      height: 343px;
+      .sectin-4__btn {
+        width: 82px;
+        height: 18px;
+        border-radius: 12px;
+        background-color: rgba(244, 248, 236, 1);
+        color: rgba(106, 152, 60, 1);
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+        margin-top: 24px;
+        margin-bottom: 8px;
+      }
+      .section-4__text {
+        color: rgba(21, 21, 21, 1);
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        text-align: left;
+      }
+      .div-text {
+        display: flex;
+        width: 116px;
+        height: 16px;
+        justify-content: space-between;
+        margin-top: 16px;
+        .section-4_text-1 {
+          color: rgba(21, 21, 21, 1);
+          font-family: Open Sans;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16.34px;
+          text-align: left;
+        }
+      }
+    }
+    .section-4__imfo-3 {
+      .section-4__cart-1 {
+        display: flex;
+        justify-content: space-between;
+        width: 369px;
+        height: 96px;
+        gap: 0px;
+        opacity: 0px;
+        margin-bottom: 32px;
+        .sectione-4__content {
+          .section-4__text {
+            color: rgba(21, 21, 21, 1);
+            font-family: "Poppins", sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 22.5px;
+            text-align: left;
+          }
+          .sectione-4__div-text {
+            display: flex;
+            width: 116px;
+            height: 16px;
+            justify-content: space-between;
+            margin-top: 16px;
+            .section-4__text-1 {
+              color: rgba(21, 21, 21, 1);
+              font-family: Open Sans;
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 16.34px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}
