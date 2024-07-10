@@ -1017,7 +1017,7 @@ body {
   justify-content: space-between;
 }
 .section-4 .section-4__div .section-4__imfo-1 {
-  background-image: url(/img/Image-dark.svg);
+  background-image: url(../img/Image-dark.png);
   width: 469px;
   height: 400px;
   background-size: cover;
