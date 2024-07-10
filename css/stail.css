@@ -326,6 +326,10 @@ template {
     padding: 0px 20px;
   }
 }
+.footer__list {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
   background: transparent;
@@ -454,6 +458,69 @@ body {
   background-color: rgba(219, 219, 219, 0);
 }
 
+.footer .footer__dif .footer__contener-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 128px;
+  margin-bottom: 48px;
+}
+.footer .footer__dif .footer__contener-1 .footer__cart {
+  display: grid;
+  row-gap: 16px;
+}
+.footer .footer__dif .footer__contener-1 .footer__cart .footer__text {
+  color: rgb(21, 21, 21);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+}
+.footer .footer__dif .footer__contener-1 .footer__cart .footer__link {
+  color: rgb(106, 152, 60);
+  text-decoration: wavy;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;
+}
+.footer .footer__dif .footer__contener-2 .footer__text-11 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+}
+.footer .footer__dif .footer__contener-2 .footer__btn-div {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 16px;
+  row-gap: 16px;
+  margin-bottom: 48px;
+}
+.footer .footer__dif .footer__contener-2 .footer__btn-div .footer__btn {
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  padding: 4px 10px;
+  align-items: center;
+}
+.footer .footer__dif .footer__text {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 64px;
+}
+
 .section {
   margin-top: 64px;
 }
@@ -481,7 +548,6 @@ body {
   font-weight: 400;
   line-height: 19.07px;
   text-align: left;
-  text-decoration: underline;
   margin-top: 15px;
 }
 .section .section__div .section__contenir-1 .section__cart-1 .section__btn {
@@ -571,7 +637,6 @@ body {
   font-weight: 400;
   line-height: 19.07px;
   text-align: left;
-  text-decoration: underline;
   margin-top: 15px;
 }
 .section .section__div .section__contenir-2 .section__cart-1 .section__btn {
