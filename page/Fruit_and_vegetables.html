@@ -1,136 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="../css/stail.min.css" />
     <link rel="icon" href="../log/Снимок экрана 2024-06-15 160244.png" />
     <title>Freshnesecom</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <nav class="nav">
-          <div class="heade__div-1 container">
-            <div class="header__info-1">
-              <ul class="header__list">
-                <li class="header__itme">
-                  <a href="#" class="header__link">Chat with us</a>
-                </li>
-                <li class="header__itme">
-                  <a href="#" class="header__link">+420 336 775 664</a>
-                </li>
-                <li class="header__itme">
-                  <a href="#" class="header__link">info@freshnesecom.com</a>
-                </li>
-              </ul>
-              <ul class="header__list">
-                <li class="header__itme">
-                  <a href="#" class="header__link">Blog</a>
-                </li>
-                <li class="header__itme">
-                  <a href="#" class="header__link">About Us</a>
-                </li>
-                <li class="header__itme">
-                  <a href="#" class="header__link">Careers</a>
-                </li>
-              </ul>
-            </div>
-            <div class="div-2"></div>
+      <nav class="nav">
+        <div class="heade__div-1 container">
+          <div class="header__info-1">
+            <ul class="header__list">
+              <li class="header__itme">
+                <a href="#" class="header__link">Chat with us</a>
+              </li>
+              <li class="header__itme">
+                <a href="#" class="header__link">+420 336 775 664</a>
+              </li>
+              <li class="header__itme">
+                <a href="#" class="header__link">info@freshnesecom.com</a>
+              </li>
+            </ul>
+            <ul class="header__list">
+              <li class="header__itme">
+                <a href="#" class="header__link">Blog</a>
+              </li>
+              <li class="header__itme">
+                <a href="#" class="header__link">About Us</a>
+              </li>
+              <li class="header__itme">
+                <a href="#" class="header__link">Careers</a>
+              </li>
+            </ul>
           </div>
-  
-          <div class="heade__div-2 container">
-            <a href="#" class="header__logo">
-              <img src="../log/1.svg" alt="img" />
+          <div class="div-2"></div>
+        </div>
+
+        <div class="heade__div-2 container">
+          <a href="#" class="header__logo">
+            <img src="../log/1.svg" alt="img" />
+          </a>
+          <div class="header__input">
+            <select class="header__inu" id="languageSelect">
+              <option value="en">All categories</option>
+              <option value="es">Uz</option>
+              <option value="fr">Русские</option>
+              <option value="de">German</option>
+            </select>
+            <input
+              class="header__int"
+              type="text"
+              placeholder="Search Products, categories ..."
+            />
+            <button class="header__btn">
+              <img src="../log/2.svg" alt="img" />
+            </button>
+          </div>
+          <div class="header__btn-div">
+            <a href="" class="header__img-1"
+              ><img src="../log/3.svg" alt="img"
+            /></a>
+            <a href="" class="header__img-2"
+              ><img src="../log/4.svg" alt="img"
+            /></a>
+          </div>
+        </div>
+        <div class="heade__div-3">
+          <div class="header__info-2 container">
+            <a href="../index.html">
+              <select class="header__input" id="languageSelect">
+                <option value="en">Bakery</option>
+                <option value="es">Uz</option>
+                <option value="fr">Русские</option>
+                <option value="de">German</option>
+              </select>
             </a>
-            <div class="header__input">
-              <select class="header__inu" id="languageSelect">
-                <option value="en">All categories</option>
-                <option value="es">Uz</option>
-                <option value="fr">Русские</option>
-                <option value="de">German</option>
-              </select>
-              <input
-                class="header__int"
-                type="text"
-                placeholder="Search Products, categories ..."
-              />
-              <button class="header__btn">
-                <img src="../log/2.svg" alt="img" />
-              </button>
-            </div>
-            <div class="header__btn-div">
-              <a href="" class="header__img-1"
-                ><img src="../log/3.svg" alt="img"
-              /></a>
-              <a href="" class="header__img-2"
-                ><img src="../log/4.svg" alt="img"
-              /></a>
+
+            <select class="header__input" id="languageSelect">
+              <option value="en">Fruit and vegetables</option>
+              <option value="es">Uz</option>
+              <option value="fr">Русские</option>
+              <option value="de">German</option>
+            </select>
+
+            <select class="header__input" id="languageSelect">
+              <option value="en">Meat and fish</option>
+              <option value="es">Uz</option>
+              <option value="fr">Русские</option>
+              <option value="de">German</option>
+            </select>
+
+            <select class="header__input" id="languageSelect">
+              <option value="en">Drinks</option>
+              <option value="es">Uz</option>
+              <option value="fr">Русские</option>
+              <option value="de">German</option>
+            </select>
+
+            <select class="header__input" id="languageSelect">
+              <option value="en">Kitchen</option>
+              <option value="es">Uz</option>
+              <option value="fr">Русские</option>
+              <option value="de">German</option>
+            </select>
+
+            <select class="header__input" id="languageSelect">
+              <option value="en">Special nutrition</option>
+              <option value="es">Uz</option>
+              <option value="fr">Русские</option>
+              <option value="de">German</option>
+            </select>
+
+            <select class="header__input" id="languageSelect">
+              <option value="en">Baby</option>
+              <option value="es">Uz</option>
+              <option value="fr">Русские</option>
+              <option value="de">German</option>
+            </select>
+
+            <select class="header__input" id="languageSelect">
+              <option value="en">Pharmacy</option>
+              <option value="es">Uz</option>
+              <option value="fr">Русские</option>
+              <option value="de">German</option>
+            </select>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-5">
+        <div class="section-5__div container">
+          <div class="section-5__info"></div>
+          <div class="section-5__content">
+            <div class="section-5__cart-1"></div>
+            <div class="section-5__cart-2">
+
+
+
+
+              <div class="section-5__cart">
+                <img src="../img/Снимок экрана 2024-07-11 105915.png" alt="img" class="section-5__img" />
+
+                <div class="cart__div-1">
+                  <p class="section-5__text-1">Product title</p>
+                  <p class="section-5__text-2">Space for a small product description </p>
+                  <img src="../img/11.svg" alt="img" class="section-5__img-2" />
+                  <div class="text__div">
+                    <div class="text__cart-1">
+                      <p class="section-5__text-3">Fresheness</p>
+                      <p class="section-5__text-3">Farm</p>
+                      <p class="section-5__text-3">Delivery</p>
+                      <p class="section-5__text-3">Stock</p>
+                    </div>
+                    <div class="text__cart-1">
+                      <p class="section-5__text-4">New (Extra fresh)</p>
+                      <p class="section-5__text-3">Grocery Tarm Fields</p>
+                      <p class="section-5__text-3">Europe</p>
+                      <p class="section-5__text-4">320 pcs</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="cart__div-2">
+                  <p class="section-5__text-1">36.99 USD</p>
+                  <p class="section-5__text-2">48.56</p>
+                  <p class="section-5__text-3">Free Shipping</p>
+                  <p class="section-5__text-4">Delivery in 1 day</p>
+                  <button class="section-5__btn-1">
+                    Product Detail
+                    <img src="../log/7.svg" alt="img" />
+                  </button>
+                  <button class="section-5__btn-2">
+                    <img src="../log/8.svg" alt="img" />
+                    Add to wish list
+                  </button>
+                </div>
+              </div>
+
+              <div class="section-5__cart">
+                <img src="../img/Снимок экрана 2024-07-11 105915.png" alt="img" class="section-5__img" />
+
+                <div class="cart__div-1">
+                  <p class="section-5__text-1">Product title</p>
+                  <p class="section-5__text-2">Space for a small product description </p>
+                  <img src="../img/11.svg" alt="img" class="section-5__img-2" />
+                  <div class="text__div">
+                    <div class="text__cart-1">
+                      <p class="section-5__text-3">Fresheness</p>
+                      <p class="section-5__text-3">Farm</p>
+                      <p class="section-5__text-3">Delivery</p>
+                      <p class="section-5__text-3">Stock</p>
+                    </div>
+                    <div class="text__cart-1">
+                      <p class="section-5__text-4">New (Extra fresh)</p>
+                      <p class="section-5__text-3">Grocery Tarm Fields</p>
+                      <p class="section-5__text-3">Europe</p>
+                      <p class="section-5__text-4">320 pcs</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="cart__div-2">
+                  <p class="section-5__text-1">36.99 USD</p>
+                  <p class="section-5__text-2">48.56</p>
+                  <p class="section-5__text-3">Free Shipping</p>
+                  <p class="section-5__text-4">Delivery in 1 day</p>
+                  <button class="section-5__btn-1">
+                    Product Detail
+                    <img src="../log/7.svg" alt="img" />
+                  </button>
+                  <button class="section-5__btn-2">
+                    <img src="../log/8.svg" alt="img" />
+                    Add to wish list
+                  </button>
+                </div>
+              </div>
+
+              <div class="section-5__cart">
+                <img src="../img/Снимок экрана 2024-07-11 105915.png" alt="img" class="section-5__img" />
+
+                <div class="cart__div-1">
+                  <p class="section-5__text-1">Product title</p>
+                  <p class="section-5__text-2">Space for a small product description </p>
+                  <img src="../img/11.svg" alt="img" class="section-5__img-2" />
+                  <div class="text__div">
+                    <div class="text__cart-1">
+                      <p class="section-5__text-3">Fresheness</p>
+                      <p class="section-5__text-3">Farm</p>
+                      <p class="section-5__text-3">Delivery</p>
+                      <p class="section-5__text-3">Stock</p>
+                    </div>
+                    <div class="text__cart-1">
+                      <p class="section-5__text-4">New (Extra fresh)</p>
+                      <p class="section-5__text-3">Grocery Tarm Fields</p>
+                      <p class="section-5__text-3">Europe</p>
+                      <p class="section-5__text-4">320 pcs</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="cart__div-2">
+                  <p class="section-5__text-1">36.99 USD</p>
+                  <p class="section-5__text-2">48.56</p>
+                  <p class="section-5__text-3">Free Shipping</p>
+                  <p class="section-5__text-4">Delivery in 1 day</p>
+                  <button class="section-5__btn-1">
+                    Product Detail
+                    <img src="../log/7.svg" alt="img" />
+                  </button>
+                  <button class="section-5__btn-2">
+                    <img src="../log/8.svg" alt="img" />
+                    Add to wish list
+                  </button>
+                </div>
+              </div>
+
+              <div class="section-5__cart">
+                <img src="../img/Снимок экрана 2024-07-11 105915.png" alt="img" class="section-5__img" />
+
+                <div class="cart__div-1">
+                  <p class="section-5__text-1">Product title</p>
+                  <p class="section-5__text-2">Space for a small product description </p>
+                  <img src="../img/11.svg" alt="img" class="section-5__img-2" />
+                  <div class="text__div">
+                    <div class="text__cart-1">
+                      <p class="section-5__text-3">Fresheness</p>
+                      <p class="section-5__text-3">Farm</p>
+                      <p class="section-5__text-3">Delivery</p>
+                      <p class="section-5__text-3">Stock</p>
+                    </div>
+                    <div class="text__cart-1">
+                      <p class="section-5__text-4">New (Extra fresh)</p>
+                      <p class="section-5__text-3">Grocery Tarm Fields</p>
+                      <p class="section-5__text-3">Europe</p>
+                      <p class="section-5__text-4">320 pcs</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="cart__div-2">
+                  <p class="section-5__text-1">36.99 USD</p>
+                  <p class="section-5__text-2">48.56</p>
+                  <p class="section-5__text-3">Free Shipping</p>
+                  <p class="section-5__text-4">Delivery in 1 day</p>
+                  <button class="section-5__btn-1">
+                    Product Detail
+                    <img src="../log/7.svg" alt="img" />
+                  </button>
+                  <button class="section-5__btn-2">
+                    <img src="../log/8.svg" alt="img" />
+                    Add to wish list
+                  </button>
+                </div>
+              </div>
+
+              <div class="section-5__cart">
+                <img src="../img/Снимок экрана 2024-07-11 105915.png" alt="img" class="section-5__img" />
+
+                <div class="cart__div-1">
+                  <p class="section-5__text-1">Product title</p>
+                  <p class="section-5__text-2">Space for a small product description </p>
+                  <img src="../img/11.svg" alt="img" class="section-5__img-2" />
+                  <div class="text__div">
+                    <div class="text__cart-1">
+                      <p class="section-5__text-3">Fresheness</p>
+                      <p class="section-5__text-3">Farm</p>
+                      <p class="section-5__text-3">Delivery</p>
+                      <p class="section-5__text-3">Stock</p>
+                    </div>
+                    <div class="text__cart-1">
+                      <p class="section-5__text-4">New (Extra fresh)</p>
+                      <p class="section-5__text-3">Grocery Tarm Fields</p>
+                      <p class="section-5__text-3">Europe</p>
+                      <p class="section-5__text-4">320 pcs</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="cart__div-2">
+                  <p class="section-5__text-1">36.99 USD</p>
+                  <p class="section-5__text-2">48.56</p>
+                  <p class="section-5__text-3">Free Shipping</p>
+                  <p class="section-5__text-4">Delivery in 1 day</p>
+                  <button class="section-5__btn-1">
+                    Product Detail
+                    <img src="../log/7.svg" alt="img" />
+                  </button>
+                  <button class="section-5__btn-2">
+                    <img src="../log/8.svg" alt="img" />
+                    Add to wish list
+                  </button>
+                </div>
+              </div>
+
+
+
+
             </div>
           </div>
-          <div class="heade__div-3">
-            <div class="header__info-2 container">
-              <a href="../index.html">
-                <select class="header__input" id="languageSelect">
-                    <option value="en">Bakery</option>
-                    <option value="es">Uz</option>
-                    <option value="fr">Русские</option>
-                    <option value="de">German</option>
-                  </select>
-              </a>
-  
-              <select class="header__input" id="languageSelect">
-                <option value="en">Fruit and vegetables</option>
-                <option value="es">Uz</option>
-                <option value="fr">Русские</option>
-                <option value="de">German</option>
-              </select>
-  
-              <select class="header__input" id="languageSelect">
-                <option value="en">Meat and fish</option>
-                <option value="es">Uz</option>
-                <option value="fr">Русские</option>
-                <option value="de">German</option>
-              </select>
-  
-              <select class="header__input" id="languageSelect">
-                <option value="en">Drinks</option>
-                <option value="es">Uz</option>
-                <option value="fr">Русские</option>
-                <option value="de">German</option>
-              </select>
-  
-              <select class="header__input" id="languageSelect">
-                <option value="en">Kitchen</option>
-                <option value="es">Uz</option>
-                <option value="fr">Русские</option>
-                <option value="de">German</option>
-              </select>
-  
-              <select class="header__input" id="languageSelect">
-                <option value="en">Special nutrition</option>
-                <option value="es">Uz</option>
-                <option value="fr">Русские</option>
-                <option value="de">German</option>
-              </select>
-  
-              <select class="header__input" id="languageSelect">
-                <option value="en">Baby</option>
-                <option value="es">Uz</option>
-                <option value="fr">Русские</option>
-                <option value="de">German</option>
-              </select>
-  
-              <select class="header__input" id="languageSelect">
-                <option value="en">Pharmacy</option>
-                <option value="es">Uz</option>
-                <option value="fr">Русские</option>
-                <option value="de">German</option>
-              </select>
-            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__dif container">
+        <div class="footer__contener-1">
+          <div class="footer__cart">
+            <p class="footer__text">Get in touch</p>
+            <a href="#" class="footer__link">About Us</a>
+            <a href="#" class="footer__link">Careers</a>
+            <a href="#" class="footer__link">Press Releases</a>
+            <a href="#" class="footer__link">Blog</a>
+            <a href="#"></a>
           </div>
-        </nav>
-      </header>
-    
-      <script src="../js/add.js"></script>
-</body>
+
+          <div class="footer__cart">
+            <p class="footer__text">Connections5</p>
+
+            <a href="" class="footer__link">Facebook</a>
+            <a href="" class="footer__link">Twitter</a>
+            <a href="" class="footer__link">Instagram</a>
+            <a href="" class="footer__link">Youtube</a>
+            <a href="" class="footer__link">LinkedIn</a>
+          </div>
+
+          <div class="footer__cart">
+            <p class="footer__text">Earnings</p>
+
+            <a href="#" class="footer__link">Become an Affiliate</a>
+            <a href="#" class="footer__link">Advertise your product</a>
+            <a href="#" class="footer__link">Sell on Market</a>
+            <a href="#"></a>
+            <a href="#"></a>
+          </div>
+
+          <div class="footer__cart">
+            <p class="footer__text">Account</p>
+
+            <a href="#" class="footer__link">Your account</a>
+            <a href="#" class="footer__link">Returns Centre</a>
+            <a href="#" class="footer__link">100 % purchase protection</a>
+            <a href="#" class="footer__link">Chat with us</a>
+            <a href="#" class="footer__link">Help</a>
+          </div>
+        </div>
+
+        <div class="footer__contener-2">
+          <p class="footer__text-11">Product tags</p>
+          <div class="footer__btn-div">
+            <butto class="footer__btn">Beans</butto>
+            <butto class="footer__btn">Carrots</butto>
+            <butto class="footer__btn">Apples</butto>
+            <butto class="footer__btn">Garlic</butto>
+            <butto class="footer__btn">Mushrooms</butto>
+            <butto class="footer__btn">Tomatoes</butto>
+            <butto class="footer__btn">Chilli_peppers</butto>
+            <butto class="footer__btn">Broccoli</butto>
+            <butto class="footer__btn">Watermelons</butto>
+            <butto class="footer__btn">Oranges</butto>
+            <butto class="footer__btn">Bananas</butto>
+            <butto class="footer__btn">Grapes</butto>
+            <butto class="footer__btn">Cherries</butto>
+            <butto class="footer__btn">Meat</butto>
+            <butto class="footer__btn">Seo_tag</butto>
+            <butto class="footer__btn">Fish</butto>
+            <butto class="footer__btn">Seo_tag</butto>
+            <butto class="footer__btn">Fresh_food</butto>
+            <butto class="footer__btn">Lemons</butto>
+          </div>
+        </div>
+        <p class="footer__text">Copyright © 2020 petrbilek.com</p>
+      </div>
+    </footer>
+
+    <script src="../js/add.js"></script>
+  </body>
 </html>
