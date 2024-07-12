@@ -1,0 +1,330 @@
+.section-6 {
+  display: flex;
+  margin-top: 64px;
+  justify-content: space-between;
+  margin-bottom: 86px;
+  .section-6__cart-1 {
+    width: 569px;
+    height: 1374px;
+    row-gap: 32px;
+    display: grid;
+    .section-6__div--1 {
+      background-image: url(../img/Снимок\ экрана\ 2024-07-11\ 105915.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 16px 16px;
+      width: 569px;
+      height: 437px;
+      border-radius: 12px;
+      .section-6__btn {
+        background-color: rgba(244, 248, 236, 1);
+        padding: 4px 10px 4px 10px;
+        border-radius: 12px;
+        color: rgba(106, 152, 60, 1);
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: left;
+      }
+    }
+    .section-6__div--2 {
+      background-image: url(/img/Minecraft_cover.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 569px;
+      height: 437px;
+      border-radius: 12px;
+    }
+    .section-6__div--3 {
+      background-image: url(/img/minecraft-landscapes-with-steve-from-minecraft.avif);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 569px;
+      height: 437px;
+      border-radius: 12px;
+    }
+  }
+  .section-6__cart-2 {
+    width: 574px;
+    height: 1247px;
+    .section-5__text {
+      font-family: "Poppins", sans-serif;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 44.8px;
+      text-align: left;
+      color: rgba(21, 21, 21, 1);
+    }
+    .section-6__div-img {
+      display: flex;
+      gap: 9px;
+      margin-bottom: 42px;
+      .section-6__text-2 {
+        color: rgba(169, 169, 169, 1);
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+        text-align: left;
+      }
+    }
+    .section-6__text-3 {
+      color: rgba(21, 21, 21, 1);
+      font-family: Open Sans;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 23.15px;
+      text-align: left;
+      margin-bottom: 40px;
+    }
+    .section-6__div {
+      display: flex;
+      gap: 68px;
+      margin-bottom: 40px;
+      .section-6__div-2 {
+        display: flex;
+        gap: 20px;
+        .text__div {
+          .section-6__text-5 {
+            color: rgba(169, 169, 169, 1);
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.07px;
+            text-align: left;
+          }
+          .section-6__text-4 {
+            color: rgba(21, 21, 21, 1);
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.07px;
+            text-align: left;
+          }
+          .section-6__text-6 {
+            color: rgba(106, 152, 60, 1);
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.07px;
+            text-align: left;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .section-6__div-5 {
+      border: 1px solid rgba(245, 245, 245, 1);
+      width: 534px;
+      height: 89px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .div__text-7 {
+        margin-right: 70px;
+        .section-6__text-1 {
+          color: rgba(106, 152, 60, 1);
+          font-family: "Poppins", sans-serif;
+          font-size: 26px;
+          font-weight: 600;
+          line-height: 39px;
+          text-align: left;
+        }
+        .section-6__text-2 {
+          font-family: "Poppins", sans-serif;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 18px;
+          text-align: left;
+          color: rgba(169, 169, 169, 1);
+          text-decoration: line-through;
+        }
+      }
+      .section-6__btn-1 {
+        width: 111px;
+        height: 48px;
+        padding: 14px 16px 14px 16px;
+        border-radius: 12px;
+        border: 1px solid rgba(209, 209, 209, 1);
+      }
+      .section-6__btn-2 {
+        background-color: rgba(106, 152, 60, 1);
+        border: 2px solid rgba(70, 118, 10, 1);
+        width: 140px;
+        height: 47px;
+        padding: 12px 16px 12px 16px;
+        gap: 6px;
+        border-radius: 12px;
+        display: flex;
+        color: rgba(255, 255, 255, 1);
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 22.5px;
+        text-align: left;
+      }
+    }
+    .section-6__div-6 {
+      display: flex;
+      gap: 42px;
+      margin-top: 30px;
+      margin-bottom: 68px;
+      .section-6__text-1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 22.5px;
+        text-align: left;
+        color: #000;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+    }
+    .section-6__div-7 {
+      width: 569px;
+      height: 43px;
+      margin-bottom: 48px;
+      .div-9 {
+        display: flex;
+        gap: 95px;
+        .section-6__link {
+          font-family: "Poppins", sans-serif;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 27px;
+          text-align: left;
+          color: #000;
+          display: inline-block;
+          padding: 15px 0px;
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background-color: rgba(106, 152, 60, 1);
+            transition: 0.4s;
+          }
+          &:hover::after {
+            width: 100%;
+          }
+          .btn {
+            color: rgba(106, 152, 60, 1);
+            font-family: "Poppins", sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 18px;
+            text-align: left;
+            padding: 0px 8px 0px 8px;
+            border-radius: 12px;
+          }
+        }
+      }
+      .div5 {
+        width: 100%;
+        height: 1px;
+        background-color: rgba(245, 245, 245, 1);
+        margin-top: 0px;
+      }
+    }
+    .section-6__text-7 {
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 22.5px;
+      text-align: left;
+      color: #000;
+    }
+    .section-6__text-8 {
+      font-family: Open Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19.07px;
+      text-align: left;
+      margin-bottom: 37px;
+    }
+    .section-6__div-9 {
+      width: 569px;
+      height: 43px;
+      margin-top: 16px;
+      .div-9 {
+        display: flex;
+        justify-content: space-around;
+        .section-6__link {
+          font-family: "Poppins", sans-serif;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 27px;
+          text-align: left;
+          color: #000;
+          display: inline-block;
+          padding: 4px 0px;
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background-color: rgba(106, 152, 60, 1);
+            transition: 0.4s;
+          }
+          &:hover::after {
+            width: 100%;
+          }
+        }
+      }
+      .div5 {
+        width: 100%;
+        height: 1px;
+        background-color: rgba(245, 245, 245, 1);
+        margin-top: 0px;
+      }
+    }
+    .section-6__div-8 {
+      .div-1 {
+        display: flex;
+        justify-content: space-around;
+        width: 573px;
+        height: 40px;
+        background-color: rgba(253, 253, 253, 1)
+        ;align-items: center;
+        margin-top: -7px;
+        .section-6__link {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 19.07px;
+          text-align: left;
+          color: rgba(87, 87, 87, 1);
+        }
+      }
+      .div-2 {
+        display: flex;
+        justify-content: space-around;
+        width: 573px;
+        height: 40px;
+        background-color: rgb(255, 255, 255)
+        ;align-items: center;
+        margin-top: -7px;
+        .section-6__link {
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 19.07px;
+          text-align: left;
+          color: rgba(87, 87, 87, 1);
+        }
+      }
+    }
+  }
+}
