@@ -1484,11 +1484,11 @@ body {
   gap: 68px;
   margin-bottom: 40px;
 }
-.section-6 .section-6__cart-2 .section-6__div .section-6__div-2 {
+.section-6 .section-6__cart-2 .section-6__div .section-6__div--2 {
   display: flex;
   gap: 20px;
 }
-.section-6 .section-6__cart-2 .section-6__div .section-6__div-2 .text__div .section-6__text-5 {
+.section-6 .section-6__cart-2 .section-6__div .section-6__div--2 .text__div .section-6__text-5 {
   color: rgb(169, 169, 169);
   font-family: Open Sans;
   font-size: 14px;
@@ -1496,7 +1496,7 @@ body {
   line-height: 19.07px;
   text-align: left;
 }
-.section-6 .section-6__cart-2 .section-6__div .section-6__div-2 .text__div .section-6__text-4 {
+.section-6 .section-6__cart-2 .section-6__div .section-6__div--2 .text__div .section-6__text-4 {
   color: rgb(21, 21, 21);
   font-family: Open Sans;
   font-size: 14px;
@@ -1504,7 +1504,7 @@ body {
   line-height: 19.07px;
   text-align: left;
 }
-.section-6 .section-6__cart-2 .section-6__div .section-6__div-2 .text__div .section-6__text-6 {
+.section-6 .section-6__cart-2 .section-6__div .section-6__div--2 .text__div .section-6__text-6 {
   color: rgb(106, 152, 60);
   font-family: Open Sans;
   font-size: 14px;
@@ -1719,4 +1719,19 @@ body {
   line-height: 19.07px;
   text-align: left;
   color: rgb(87, 87, 87);
+}
+
+.section-6 {
+  display: flex;
+  justify-content: space-between;
+}
+.section-6 .section-6__div-1 {
+  width: 670px;
+  height: 2034px;
+  border: 1px solid red;
+}
+.section-6 .section-6__div-2 {
+  width: 468px;
+  height: 800px;
+  border: 1px solid red;
 }/*# sourceMappingURL=stail.css.map */
