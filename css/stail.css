@@ -1242,10 +1242,24 @@ body {
   margin-top: 64px;
 }
 .section-5 .section-5__div .section-5__content .section-5__cart-1 {
-  border: 1px solid red;
-  background-color: rgb(125, 10, 136);
+  border: 2px solid red;
   width: 269px;
   height: 939px;
+}
+.section-5 .section-5__div .section-5__content .section-5__cart-1 .cek-1 .label-cek {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid rgb(209, 209, 209);
+  display: inline-block;
+  border-radius: 4px;
+}
+.section-5 .section-5__div .section-5__content .section-5__cart-1 .cek-1 .input-cek:checked + .label-cek {
+  border: 1.5px solid rgb(70, 118, 10);
+  background-image: url(../log/9.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(106, 152, 60);
 }
 .section-5 .section-5__div .section-5__content .section-5__cart-2 {
   width: 870px;
@@ -1349,7 +1363,7 @@ body {
   line-height: 16.34px;
   text-align: left;
 }
-.section-5 .section-5__div .section-5__content .section-5__cart-2 .section-5__cart .cart__div-2 .section-5__btn-1 {
+.section-5 .section-5__div .section-5__content .section-5__cart-2 .section-5__cart .cart__div-2 .teg .section-5__btn-1 {
   margin-top: 26px;
   display: flex;
   align-items: center;
